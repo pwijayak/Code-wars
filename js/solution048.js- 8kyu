@@ -1,0 +1,7 @@
+function billboard(name, price = 30){
+// split the name
+  // replace with price
+  // sum
+
+ return name.split("").map((x)=>price).reduce((acc,ind)=>acc+ind,0)
+} 
