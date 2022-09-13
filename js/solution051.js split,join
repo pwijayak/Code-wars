@@ -1,0 +1,5 @@
+function vaporcode(string) {
+  console.log(string.toUpperCase().split(" ").join("").split("").join("  "))
+}
+
+vaporcode("Lets go to the movies")
