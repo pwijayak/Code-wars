@@ -1,0 +1,11 @@
+
+  var capitals = function (word) {
+	// Write your code here
+ let x=word.split("")
+  let y=[]
+  for(i=0;i<x.length;i++){
+    if(x[i]==x[i].toUpperCase()){
+      y.push(i)
+    }
+  }return(y)
+};
