@@ -1,0 +1,5 @@
+function sum(...arr) {
+  // return the sum of all arguments given.
+  
+  return arr.reduce((acc,ind)=>acc+ind,0)
+}
