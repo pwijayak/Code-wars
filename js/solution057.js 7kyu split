@@ -1,0 +1,9 @@
+function removeUrlAnchor(url){
+  // TODO: complete
+  
+  if(url.includes("#")){
+    return url.split("#")[0]
+  }else{
+    return url
+  }
+}
