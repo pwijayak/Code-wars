@@ -1,0 +1,11 @@
+function hexHash(code){
+    var result = '';
+    for (var i=0; i<code.length; i++) {
+      result += code.charCodeAt(i).toString(16);
+
+    }
+console.log(result.split("")
+
+
+  }
+hexHash('Hello')
