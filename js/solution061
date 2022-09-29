@@ -1,0 +1,6 @@
+let array=[]
+
+function arr(N){
+for(i=0;i<N;i++){
+ array.push(i)
+}return array}
