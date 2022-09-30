@@ -1,0 +1,7 @@
+function smallEnough(a, limit){
+let b= (a.filter((x)=>x<=limit))
+
+return b.length==a.length
+       
+
+}
