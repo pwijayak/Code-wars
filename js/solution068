@@ -1,0 +1,7 @@
+  function validatePIN (pin) {
+  let a=pin.split("").map((x)=>parseInt(x))
+if(a.length==4&&a.includes(NaN)==false||a.length==6&a.includes(NaN)==false){
+  return true}
+else {
+  return false
+}}
