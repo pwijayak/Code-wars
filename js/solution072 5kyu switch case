@@ -1,0 +1,26 @@
+function incrementString (string) {
+  // return incrementedString
+
+  // if it ends with string append number
+  
+  let c= string[string.length-1]
+  switch(c){
+    case '0':
+    case '1':
+    case '2':
+    case '3':
+    case '4':
+    case '5':
+    case '6':
+    case '7':
+    case '8': return string.substr(0,string.length-1)+(parseInt(c)+1)
+    case '9': return incrementString(string.substring(0, string.length-1 +0))
+    
+    
+  }
+  
+    
+  
+
+  
+}
