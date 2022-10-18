@@ -1,0 +1,13 @@
+function solve(s){
+  let a= s.split("").filter((x)=>x.toUpperCase()==x)
+  let b= s.split("").filter((x)=>x.toLowerCase()==x)
+
+  if(a.length<=b.length){
+    return s.toLowerCase()
+  }
+  else{
+    return s.toUpperCase()
+  }
+}
+
+solve("code")
