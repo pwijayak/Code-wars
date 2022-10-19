@@ -1,0 +1,5 @@
+function squareRoot(x) {
+  //Good luck!
+
+  return +(x**0.5).toFixed(5)
+      }
