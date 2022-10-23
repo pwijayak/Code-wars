@@ -1,3 +1,23 @@
 function nbDig(n, d) {
     // your code
+  let a=[];
+  for(i=0;i<=n;i++){
+    a.push(i*i)
+    
+    
+  }console.log(a)
+
+  let b= a.map((x)=>String(x))
+  let total=0
+  for (i=0;i<b.length;i++){
+    
+    for (j=0;j<b[i].length; j++){
+      
+      if (b[i][j]==String(d)){
+        total+=1
+      }
+     
+    }
+  }
+  return total
 }
