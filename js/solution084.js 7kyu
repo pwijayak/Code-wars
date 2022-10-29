@@ -1,0 +1,13 @@
+
+
+function rowWeights(array){
+  //your code here
+
+  let a=array.filter((x,i)=>i%2==0)
+  let b=array.filter((x,i)=>i%2!=0)
+
+  let sumA= a.reduce((acc,ind)=>acc+ind,0)
+  let sumB= b.reduce((acc,ind)=>acc+ind,0)
+
+return [sumA, sumB]
+}
