@@ -1,0 +1,14 @@
+function solution(str){
+  let i=0
+let array=[]
+  let a=str.split("")
+  if(a.length%2!=0){
+    a.push("_")
+  }
+  while(i<a.length){
+    array.push(a[i]+a[i+1])
+    i+=2
+  } console.log(array)}
+
+
+solution("abcdef")
