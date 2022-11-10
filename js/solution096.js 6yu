@@ -1,0 +1,21 @@
+function tribonacci(signature,n){
+  //youre here
+let array=[]
+  let i=0
+  
+ if (n>0&&n<3){
+  while(i<n){
+    array.push(signature[i])
+    i++
+  }return array}
+   
+else if(n>=3){
+  while(i<n-3){
+    signature.push(signature[i]+signature[i+1]+signature[i+2])
+  i++}
+  return signature}
+else if(n==0){
+  return []
+} 
+    
+}
