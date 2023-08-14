@@ -1,0 +1,10 @@
+
+function squareSum(numbers){
+  let sum=0
+numbers.forEach(function(n){
+  sum+=n*n
+})
+console.log(sum)
+}
+
+squareSum([1,2])
