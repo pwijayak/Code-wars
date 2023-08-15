@@ -1,0 +1,20 @@
+function stringy(size) {
+  // your code here  
+  let a=""
+  for(i=1;i<=size;i++){
+    if(i%2!==0){
+      a+="1"
+    }
+    else{
+      a+="0"
+    }
+  }
+
+  return a
+}
+
+// pseudo code
+// I could do a for loop
+// if i is odd, += 1
+// if i is even, +=0
+// return the whole numbe
