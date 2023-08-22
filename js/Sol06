@@ -1,0 +1,9 @@
+function array(string) {
+let a= string.split(",")
+console.log(a.length)
+  if(a.length<3){return null}
+  else{
+  a.pop()
+  a.shift()
+  return a.join(" ")
+}}
